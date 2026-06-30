@@ -4,7 +4,7 @@ from pathlib import Path
 PROJECT_ROOT= Path(__file__).resolve().parent.parent
 sys.path.append(str(PROJECT_ROOT))
 
-from agent.rag_pipeline import search_hr_policy
+from agent.rag_pipeline2 import search_hr_policy
 
 if __name__ == '__main__':
     print('---------- RAG Pipeline Test ----------')
